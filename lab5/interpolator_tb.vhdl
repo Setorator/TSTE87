@@ -9,9 +9,12 @@ entity interpolator_tb is
     (
         -- Change these
         -- Number of cells in memory 1
-        constant cells1 : integer := 6;
+        constant cells1 : integer := 7;
         -- Number of cells in memory 2
-        constant cells2 : integer := 9;
+        constant cells2 : integer := 11;
+        -- Number of cells in memory 3 --ADDITION
+        constant cells3 : integer := 1;
+
 
         -- Scheudle time
         constant scheduletime : integer := 48;
@@ -43,6 +46,10 @@ architecture behavior of interpolator_tb is
     signal start2 : std_logic;
     signal start3 : std_logic;
     signal start4 : std_logic;
+    --ADDITIONS
+    signal address3 : integer range 0 to cells3-1;
+    signal enable3 : std_logic;
+    signal readwrite3 : std_logic;
     
     component memorycontroller1
     port
@@ -58,6 +65,15 @@ architecture behavior of interpolator_tb is
     (
         state : in integer range 0 to scheduletime-1;
         adress : out integer range 0 to cells2-1;
+        enable, readwrite : out std_logic
+    );
+    end component;
+
+    component memorycontroller3
+    port
+    (
+        state : in integer range 0 to scheduletime-1;
+        adress : out integer range 0 to cells3-1;
         enable, readwrite : out std_logic
     );
     end component;
@@ -125,7 +141,15 @@ begin
         enable => enable2,
         readwrite => readwrite2
     );
-   
+    memcon3 : memorycontroller3
+    port map
+    (
+        state => state,
+        adress => address3,
+        enable => enable3,
+        readwrite => readwrite3
+    );   
+
     timcon : timingcontroller
     port map
     (

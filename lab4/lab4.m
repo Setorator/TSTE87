@@ -94,3 +94,7 @@ printinterconnection(mv1, peassignment_pipl)
 printinterconnection(mv2, peassignment_pipl)
 printinterconnection(mv3, peassignment_pipl)
 
+
+%% Lab 5
+generatetimingcontroller(scheduletime)
+

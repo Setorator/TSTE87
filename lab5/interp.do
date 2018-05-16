@@ -3,6 +3,7 @@ vlib work
 vcom -93 timingcontroller.vhdl
 vcom -93 memorycontroller1.vhdl
 vcom -93 memorycontroller2.vhdl
+vcom -93 memorycontroller3.vhdl
 vcom -93 pecontroller1.vhdl
 vcom -93 pecontroller2.vhdl
 vcom -93 pecontroller3.vhdl
@@ -20,6 +21,10 @@ add wave sim:/interpolator_tb/readwrite1
 add wave sim:/interpolator_tb/address2
 add wave sim:/interpolator_tb/enable2
 add wave sim:/interpolator_tb/readwrite2
+
+add wave sim:/interpolator_tb/address3
+add wave sim:/interpolator_tb/enable3
+add wave sim:/interpolator_tb/readwrite3
 
 add wave -decimal sim:/interpolator_tb/coeff1
 add wave sim:/interpolator_tb/start1
