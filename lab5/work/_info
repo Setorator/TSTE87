@@ -1,0 +1,242 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/edu/kimla207/TSTE87/lab5
+Einterpolator_tb
+Z1 w1526479504
+Z2 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+Z6 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z7 8interpolator_tb.vhdl
+Z8 Finterpolator_tb.vhdl
+l0
+L7
+VA>@Be_P5=9aDYb2U]EB0B1
+!s100 BQ`if>RekD:0gzD_7Hma@2
+Z9 OL;C;6.4a;39
+31
+o-93
+Z10 tExplicit 1
+Abehavior
+R2
+R3
+R4
+R5
+R6
+Z11 DEx4 work 15 interpolator_tb 0 22 A>@Be_P5=9aDYb2U]EB0B1
+l125
+L30
+Z12 V3BKG@][EbS[c=eNZklEzk0
+Z13 !s100 oKDc>[8foW`cUIUa:OWn?2
+R9
+31
+Z14 Mx5 3 std 6 textio
+Z15 Mx4 4 ieee 16 std_logic_textio
+Z16 Mx3 4 ieee 14 std_logic_1164
+Z17 Mx2 4 ieee 18 std_logic_unsigned
+Z18 Mx1 4 ieee 15 std_logic_arith
+o-93
+R10
+Ememorycontroller1
+Z19 w1526479629
+R4
+Z20 8memorycontroller1.vhdl
+Z21 Fmemorycontroller1.vhdl
+l0
+L7
+V;F04>]c:Sf`S?GIDQfnFX3
+R9
+31
+o-93
+R10
+!s100 5URGzQd4n?B1N`9fBTokO1
+Agenerated
+R4
+DEx4 work 17 memorycontroller1 0 22 ;F04>]c:Sf`S?GIDQfnFX3
+l15
+L14
+VPPJ2HVifO8=aDXgjB6i0D0
+R9
+31
+Z22 Mx1 4 ieee 14 std_logic_1164
+o-93
+R10
+!s100 m;m0ZJ0=mKj0oZSgFXn@C0
+Ememorycontroller2
+R19
+R4
+Z23 8memorycontroller2.vhdl
+Z24 Fmemorycontroller2.vhdl
+l0
+L7
+VhjgLL0NRc1kCLHWEQi>JF3
+R9
+31
+o-93
+R10
+!s100 ]K7zd`m=2CHX6hZ>gka2^3
+Agenerated
+R4
+DEx4 work 17 memorycontroller2 0 22 hjgLL0NRc1kCLHWEQi>JF3
+l15
+L14
+VAI7T?H^hOa]LQUXDlCBOa1
+R9
+31
+R22
+o-93
+R10
+!s100 AJXD5kbenXOgC=1@NCZke3
+Ememorycontroller3
+R19
+R4
+Z25 8memorycontroller3.vhdl
+Z26 Fmemorycontroller3.vhdl
+l0
+L7
+V0YM@jJ=D4mzbFfiKZ8zf[2
+R9
+31
+o-93
+R10
+!s100 U]=gPz?VfB6hoT[fi1BXY2
+Agenerated
+R4
+DEx4 work 17 memorycontroller3 0 22 0YM@jJ=D4mzbFfiKZ8zf[2
+l15
+L14
+VVM:5U^zRPmN954JcU71<>2
+R9
+31
+R22
+o-93
+R10
+!s100 nemZ=;R55]K=8Bf;l?17=0
+Epecontroller1
+R19
+R4
+Z27 8pecontroller1.vhdl
+Z28 Fpecontroller1.vhdl
+l0
+L7
+V9^N@l12M=e:_DEmjkE0<E1
+R9
+31
+o-93
+R10
+!s100 `U7Nj>ZA;XlV`ED?McKa>1
+Agenerated
+R4
+DEx4 work 13 pecontroller1 0 22 9^N@l12M=e:_DEmjkE0<E1
+l15
+L14
+V5CgU@5K`b1@`e?_B::e9i3
+R9
+31
+R22
+o-93
+R10
+!s100 3MR^5g61BKL]h@;ViTX<_3
+Epecontroller2
+R19
+R4
+Z29 8pecontroller2.vhdl
+Z30 Fpecontroller2.vhdl
+l0
+L7
+VzgO3bhGhd1Y:EOPQocDFm1
+R9
+31
+o-93
+R10
+!s100 6H>fX7D;8caR7FnF1hCKR3
+Agenerated
+R4
+DEx4 work 13 pecontroller2 0 22 zgO3bhGhd1Y:EOPQocDFm1
+l15
+L14
+Vd@4;@DH=5B8^5jP>I;b`k1
+R9
+31
+R22
+o-93
+R10
+!s100 9mL0jC;zfM<fGo1328F8^1
+Epecontroller3
+R19
+R4
+Z31 8pecontroller3.vhdl
+Z32 Fpecontroller3.vhdl
+l0
+L7
+VU=R:K3JOh_][^XChU7hjT1
+R9
+31
+o-93
+R10
+!s100 OSCUBL@fUPXfDgIQR[X[[3
+Agenerated
+R4
+DEx4 work 13 pecontroller3 0 22 U=R:K3JOh_][^XChU7hjT1
+l15
+L14
+V6chGj4nV^GSeE0RLKel:c2
+R9
+31
+R22
+o-93
+R10
+!s100 YKi[N0Ee@QX<=VO0NX_Yh1
+Epecontroller4
+R19
+R4
+Z33 8pecontroller4.vhdl
+Z34 Fpecontroller4.vhdl
+l0
+L7
+V@9<J]NiC>8cLggGUg0kjk2
+R9
+31
+o-93
+R10
+!s100 jmM;:eYd60eI8mj?L8QTj3
+Agenerated
+R4
+DEx4 work 13 pecontroller4 0 22 @9<J]NiC>8cLggGUg0kjk2
+l15
+L14
+V:@7W<z64PZi1I88dPlE[e3
+R9
+31
+R22
+o-93
+R10
+!s100 n^BeMBPSb^d`_A?a8SbP82
+Etimingcontroller
+R19
+R4
+Z35 8timingcontroller.vhdl
+Z36 Ftimingcontroller.vhdl
+l0
+L7
+V5CXzoH@gk1TzUG>9:R;8=0
+R9
+31
+o-93
+R10
+!s100 2zK>gN1;>DozOT>L^_Vf02
+Agenerated
+R4
+DEx4 work 16 timingcontroller 0 22 5CXzoH@gk1TzUG>9:R;8=0
+l14
+L13
+VZ`QzES`1;1Ym]A:jg@PM;0
+R9
+31
+R22
+o-93
+R10
+!s100 SbnhL6?ok0nLbOM3g<]KT3
